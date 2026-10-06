@@ -1,58 +1,42 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mini Art Museum - Home</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Mini Art Museum</h1>
-      <nav>
-        <ul class="pages">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="artists.html">Artists</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="visit.html">Visit &amp; Contact</a></li>
-        </ul>
-      </nav>
-    </header>
 
-    <main>
-      <section>
-        <img src="img/logo.svg" alt="Mini Art Museum logo" width="120" />
-        <h2>Welcome to the Mini Art Museum</h2>
-        <p id="welcome-text">
-          Discover masterpieces by some of the greatest painters in history.
-          Meet the artists, explore the gallery and plan your visit.
-        </p>
-      </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Art Museum - Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
-      <section>
-        <h2>Explore the Museum</h2>
-        <ul>
-          <li>
-            <a href="artists.html">Artists</a> - meet Vincent van Gogh, Claude
-            Monet and Rembrandt.
-          </li>
-          <li>
-            <a href="gallery.html">Gallery</a> - browse famous paintings from
-            our collection.
-          </li>
-          <li>
-            <a href="visit.html">Visit &amp; Contact</a> - hours, location and
-            contact info.
-          </li>
-        </ul>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <ul class="footer-list">
-        <li id="museum-location">Sokolov 8 Be'er Sheva</li>
-        <li id="footer-museum-hours">8:00-20:00</li>
+<body>
+  <header>
+    <h1> Art Museum</h1>
+    <nav id="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="artists.html">Artists</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="visit.html">Visit & Contact</a></li>
       </ul>
-    </footer>
-  </body>
+  </header>
+  <main>
+    <section id="welcome">
+      <img id="logo" src="img/logo.svg" alt=" Art Museum Logo">
+      <p>Welcome to the Art Museum! Explore our collection of artworks, learn about the artists, and plan your visit.
+        Enjoy a journey through art and creativity!</p>
+    </section>
+    <section>
+      <a href="artists.html">View Our Artists <img src="img/artist1.jpg" alt="Artist Icon"></a>
+      <a href="gallery.html">Explore the Gallery <img src="img/artwork1.jpg" alt="Gallery Icon"></a>
+    </section>
+  </main>
+
+  <footer>
+    <p>visit us: haoman st. jerusalem, between hours 10:00-18:00</p>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3380.1234567890123!2d35.21345678901234!3d31.76812345678901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1502c12345678901%3A0xabcdef1234567890!2sArt%20Museum%20Jerusalem!5e0!3m2!1sen!2sil!4v1234567890123"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </footer>
+</body>
+
 </html>
